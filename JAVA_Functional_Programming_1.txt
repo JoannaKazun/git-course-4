@@ -1,0 +1,214 @@
+System.out.println();
+System.out.println("Hello, World!");
+System.out.println(2+3);
+
+int passengers; (deklaracja)
+passengers = 0; (Inicjacja)
+passengers = passengers + 5;
+passengers = passengers - 3;
+passengers = passengers - 1 + 5;
+System.out.println("Ilosc pasazerow", passengers);
+
+int stops;
+int fare;
+stops = 0;
+fare = 0;
+
+stops = stops + 1;
+fare = fare + 5;
+stops =  stops + 1;
+fare = fare + 3;
+stops = stops + 1;
+fare = fare +7;
+
+System.out.println(stops);
+
+
+String driver;
+drriver = "Hamish";
+driver.length(); - policzenie ilosci liter w slowie
+int letter = driver.length();
+System.out.println(letter);
+
+driver = driver.toUpperCase();
+System.out.println(driver);
+
+String Concatenation
+
+String driverFirstName;
+String driverLastName;
+driverFirstName = "Hamish";
+driverLastName = "Blake";
+
+String driverFullName = driverFirstName + " " + driverLastName;
+System.out.println(driverFullName);
+
+int stops;
+int fare;
+stops = 0;
+fare = 0;
+
+stops = stops + 1;
+fare = fare + 5;
+stops =  stops + 1;
+fare = fare + 3;
+stops = stops + 1;
+fare = fare +7;
+
+System.out.println(stops);
+System.out.println(fare);
+
+System.out.println("The bus made$"+fare+" after "+stops+" stops");
+
+
+String language = "java";
+String feeling = "Love";
+feeling = feeling.toLowerCase();
+language = language.toUpperCase();
+System.out.printlin("I " + feeling + " " + language);
+
+driverFirstName = 
+UpperCamelCase
+lowerCamelCase = veriables
+(1) variable names are case sensitive
+(2) start variable names with a letter
+String se7en;
+(3) cannot have white spaces!!
+
+String player = "Jack"; 
+Declaring +  Initializing
+
+int price = 0;
+int speed  = 100;
+int stockPrice = 75;
+
+
+(1) Integer int maxInt = 0123456789 = 10 sztuk - szybsze
+(2) Long long muchMore = 0123456789  * 10000000 = wolniejsze
+(3) Double 
+	double franction = 99.078;
+	double price = 23.75;
+(4) String fullText = "(b) 
+(5) Charakcter char answer = "b"; 
+		char answer = "3"; 
+		char me = 'I';	
+
+(6) Boolean 
+
+	boolean fact = true;
+	boolean condition = false; 
+
+(1) Addition 
+int x = 2+3; =5
+(2) Subtraction
+int y = 4-5; = -1
+int temp = -20; = -20
+(3) Multiplication
+int days = 7*4; = 28
+(4) Division
+double div = 5/2; = 2
+double accurate = 5/2.0 = 2.5
+double div2 = 24/5; = 4
+double div2 = 24/5.0; = 4.8
+
+
+int x = 2+3; =5
+int y = 4-5; = -1
+int z =  x*y; = -5
+
+double paid = 10;
+double change = 3.25;
+double tip = (paid-change)*0.2; 
+
+Truncation (truncate)
+double div = 5/2; = 2
+
+double current = 17;
+double rate = 1.5;
+double future = current * rate;
+System.out.println(future);
+
+Casting
+int approx = (int) future;
+System.out.println(approx);
+
+int x = 5;
+int y = 2;
+double div = x/y;
+System.out.println(div);
+double accurate = (double)x/y;
+System.out.println(accurate);
+
+Comments:
+//dividing x by y 
+//this won't work
+
+/* 
+The following code estimate
+*/
+
+Calculate the average
+
+double math = 97.5;
+double english = 98;
+double science = 83.5;
+double drama = 75;
+
+double sum = math + english + science + drama
+double average = sum /4;
+System.out.println(average);
+
+int x = 0;
+int y = 4;
+double  z = 3;
+x = x + 2;
+z = x + y - 7;
+y = x * 3;
+System.out.println(x);
+System.out.println(y);
+System.out.println(z);
+
+Odp.
+x = 2
+y = 6
+z = -1.0
+
+Question 3
+
+int bankBalance = 5;
+
+bankBalance = bankBalance + 250;
+bankBalance = bankBalance - 100;
+System.out.println(bankBalance);
+
+Question 5
+
+int day = 19;
+String month = "April";
+
+Question 4
+int bankBalance = 5;
+bankBalance = bankBalance + 250;
+bankBalance = bankBalance - 100;
+System.out.println(bankBalance);
+
+Question 6
+String firstName  = "Joanna";
+String lastName = "Kazun";
+String fullName = firstName + " " + lastName;
+fullName.length()
+int letter = fullName.length();
+System.out.println(letter);
+System.out.println("Hello, my name is" + fullName + ".");
+System.out.println("There are " + letter + "letters in my name.");
+
+
+Question 7
+double fahrenheit = 4.0;
+double celsius;
+celsius = (fahrenheit -32) * 5 / 9;
+System.out.println(celsius);
+
+
+//Tic Tac Toe Grid
+

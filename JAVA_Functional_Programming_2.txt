@@ -1,0 +1,218 @@
+
+boolean isCold = true;
+if (isCold) {
+	System.out.println("It's cold,wear a coat!");
+}
+
+boolean isLightGreen = 
+if (isLightGreen) {
+	System.out.println("Drive!");
+}
+
+Variable Scope
+boolean isLightGreen = true;
+if(isLightGreen) {
+	System.out.println("Drive!");
+}
+
+boolean isRaining = true;
+if(isRaining) {
+	System.out.println("Windshield wipers on.");
+}
+
+boolean isLightGreen = true;
+if(isLightGreen) {
+ double carSpeed = 100;
+ System.out.println("Drive!");
+ System.out.println("Speed is:" + carSpeed);
+}
+
+
+boolean isRecyclable = true;
+if(isRecyclable) {
+ double weight = 13.5;
+ System.out.println("This is recyclable");
+ System.out.println("Weighs:" + weight + " ounces");
+}
+
+//If else Statement
+
+
+boolean isLightGreen = true;
+if(isLightGreen) {
+ double carSpeed = 100;
+ System.out.println("Drive!");
+ System.out.println("Speed is:" + carSpeed);
+} else {
+ System.out.println("Stop!");
+}
+
+//else-if Statement
+
+boolean isLightGreen = true;
+boolean isLightYellow = false;
+
+//boolean isLightGreen = false;
+//boolean isLightYellow = true;
+
+if(isLightGreen) {
+ double carSpeed = 100;
+ System.out.println("Drive!");
+ System.out.println("Speed is:" + carSpeed);
+} else if (isLightYellow) {
+ System.out.println("Slow down");
+} else {
+ System.out.println("Stop!");
+}
+
+
+//Library card
+boolean passport = false;
+boolean birthCertificate = true;
+boolean driversLicense = true;
+
+if(passport) {
+ System.out.println("A passport is a valid ID.");
+} else if (birthCertificate) {
+ System.out.println("A birth Certificate is a valid ID.");
+} else if (driversLicense) {
+ System.out.println("A drivers License is a valid ID.");
+} else {
+ System.out.println("Invalid ID. Your application is denied.");
+}
+
+//Boolean expressions
+boolean b3 =  3 < 5;
+boolean b4 =  3 > 5;
+boolean b4 =  7 <= 6;
+
+int x = 10; // variable assignment
+x >= 10;
+x == 9;
+x != 9; //NOT equal
+
+
+//Tickets to the Museum
+
+int ticketPrice = 10;
+int age = ;
+boolean isStudent = ;
+
+if(age <= 15 ) {
+ ticketPrice = 5;
+} else if (age > 60) {
+ ticketPrice = 5;
+}
+ else if (isStudent) {
+ ticketPrice = 5;
+}
+System.out.println(ticketPrice);
+
+
+//Logical Operators
+
+int ticketPrice = 10;
+int age = ;
+boolean isStudent = ;
+
+if(age <= 15  || age > 60 || isStudent) {
+ ticketPrice = 5;
+} 
+System.out.println(ticketPrice);
+
+// Nested if Statements
+
+boolean action = ;
+boolean romance = ;
+boolean horror = ;
+boolean comedy = ;
+
+if(action && romance && (horror || comedy))
+
+if(action && romance) {
+ System.out.println("This movie includes action and romance.");
+  if (horror || comedy){
+  System.out.println("This also includes comedy or horror");
+ }
+}
+
+//Restaurant Rating
+
+int rating = ?;
+if(rating >= 0 && rating <=5){
+ if (rating <= 2) { 
+ System.out.println ("What's the reason for your low rating?");
+ }
+ System.out.println("Thank you for your feedback.");
+}
+
+//Switch statement
+
+int passcode = 555;
+String coffeeType;
+
+if (passcode == 555){
+ coffeeType = "Espresso";
+} else if (passcode == 312){
+ coffeeType = "Vanilla latte";
+} else if (passcode == 629){
+ coffeeType = "Drip coffee";
+} else {
+ coffeeType = " Unkonow";
+}
+System.out.println(coffeeType);
+
+
+//////////
+
+
+int passcode = 555;
+String coffeeType 
+
+switch(passcode) {
+ case 555: coffeeType = "Espresso";
+  break;  
+ case 312: coffeeType = "Vanilla latte";
+  break;  
+ case 629: coffeeType = "Drip coffee";
+  break;  
+ default: coffeeType = "Unknown";
+  break; 
+}
+System.out.println(coffeeType);
+ 
+
+///// Months
+
+int month; // should be a number 1-12
+String monthString;
+
+switch(month) {
+    case 1: monthString = "January";
+        break;
+    case 2: monthString = "February";
+        break;
+    case 3: monthString = "March";
+        break;
+    case 4: monthString = "April";
+        break;
+    case 5: monthString = "May";
+        break;
+    case 6: monthString = "June";
+        break;
+    case 7: monthString = "July";
+        break;
+    case 8: monthString = "August";
+        break;
+    case 9: monthString = "September";
+        break;
+    case 10: monthString = "October";
+        break;
+    case 11: monthString = "November";
+        break;
+    case 11: monthString = "December";
+        break;
+    default: monthString = "Invalid month"     
+    // write case 12 and a default case below
+}
+System.out.println(monthString);

@@ -1,0 +1,224 @@
+// Functions!
+
+System.out.println("Print this");
+
+
+public void chorus() {
+ System.out.println("Once I had a love and it was a gas");
+ System.out.println("Soon turned out had a heart of glass");
+ System.out.println("Seemed like the real thing, only to find");
+ System.out.println(" Mucho mistrust, love's gone behind");
+}
+
+ chorus();
+
+// playMusic()
+
+boolean playButton = true;
+boolean playButton; // true or false
+
+// Define a function playMusic() below.
+// This should print out: "Music is playing" when playButton is true
+// and "Music is paused" when playButton is false.
+public void playMusic() {
+ if(playButton) {
+ System.out.println("Music is playing");
+ } else {
+ System.out.println("Music is paused");
+ }
+}
+
+//Parameters and Arguments
+
+public void greeting(String location) {
+ System.out.println("Hello, " + location);
+ } 
+
+//What will this print for the following calls?
+
+public void weatherInterpreter(int temperature) {
+ if (temperature > 30) {
+   System.out.println("It's hot outside!");
+} else if (temperature < 5) {
+   System.out.println("Brr, consider wearing a jacket.");
+} else {
+  System.out.println("Not too hot, not too cold.");
+
+int degreesC = 15;
+weatherInterpreter(degreesC);
+}
+
+
+// Rollercoaster Parameters
+
+public boid admission (duble height) {
+ if (height > 120) {
+ System.out.println("you pass the heiht requirements.");
+} else {
+ System.out.println("Sorry, you do not pass.");
+ }
+}
+
+//Multiple Paramenters
+
+public void printPhoto(int width, int height, boolean inColor, float price){
+ System.out.println("Width = " + width+ " cm");
+ System.out.println("Height = " + height+ " cm");
+ if(inColor) {
+   System.out.println(" Print is full color.");
+ } else {
+  System.out.println("Print is black and white.");
+ }
+}
+
+printPhoto(30, 40, true);
+printPhoto(10, 20, false);
+
+printPhoto(20, 10, false);
+
+// Liking Photos
+
+public void likePhoto(int currentLikes, String comment, boolean like) {
+ System.out.println("Feedback: "+ comment);
+ if(like) {
+  currentLikes = currentLikes + 1;
+}
+ System.out.println("Number of likes:" + currentLikes);
+}
+
+//Return Values
+
+
+public void likePhoto(int currentLikes, String comment, boolean like) {
+ System.out.println("Feedback: "+ comment);
+ if(like) {
+  currentLikes = currentLikes + 1;
+}
+ System.out.println("Number of likes:" + currentLikes);
+}
+
+likePhoto(0, "Nice color!", true);
+likePhoto(1, "I like this", true);
+
+
+public int likePhoto(int currentLikes, String comment, boolean like) {
+ System.out.println("Feedback: "+ comment);
+ if(like) {
+  currentLikes = currentLikes + 1;
+}
+ System.out.println("Number of likes:" + currentLikes);
+ return currentLikes;
+}
+
+int returnedLikes = likePhoto(0, "Nice color!", true);
+int totalLikes = likePhoto(returnedLikes, "I like this", true);
+
+// What's Missing?
+
+public String admission(double height) {
+ String passText;
+ if (height > 120) {
+  passText = "You pass the height requirements.";
+ } else {
+  passText = "Sorry, you do not pass.";
+ }
+ return passText;
+}
+
+
+// Making Change
+
+// Define a function with the name and parameters: makeChange(double itemCost, double dollarsProvided)
+// Calculate and return the calculated change which should be the dollarsProvided minus the itemCost
+
+// Remember to return a value you need 1) a return type and 2) a return statement
+
+public double makeChange(double itemCost, double dollarsProvided) {
+ double change = dollarsProvided - itemCost;
+
+return change;
+}
+
+
+// Returning Random Numbers
+double randomNumber = Math.random();
+randomNumber = randomNumber * 10;
+
+int randomInt = (int) randomNumer; //Casting
+
+//Rolling Dice
+
+public int rollDice() {
+ double randomNumer = Math.random();
+ randomNumber = randomNumber * 7;
+ randomNumber = randomNumber + 1;
+ int randomInt = (int) randomNumber;
+ return randomInt;
+}
+
+int roll1 = rollDice();
+int roll2 =  rollDice();
+
+ System.out.println("Roll 1:" + roll1);
+ System.out.println("Roll 2:" + roll2);
+
+
+
+//Improved Dice Roll
+
+// Using the sides parameter, change this code so that it returns
+// the correct range of roll values no matter the number of sides provided.
+// ex. For an 8-sided dice the numbers returned should be integers between 1-8
+
+public int rollDice(int sides){
+        // random num between 0 and (almost) 1
+        double randomNumber=Math.random();
+
+        // change range to 0 to (almost) 6
+        randomNumber=randomNumber*sides;
+
+        // shift range up one
+        randomNumber=randomNumber+1;
+
+        // cast to integer (ignore decimal part)
+        // ex. 6.998 becomes 6
+        int randomInt=(int)randomNumber;
+
+        // return statement
+        return randomInt;
+        }
+
+int roll1 = rollDice();
+int roll2 =  rollDice();
+
+ System.out.println("Roll 1:" + roll1);
+ System.out.println("Roll 2:" + roll2);
+
+//Comments
+
+/**
+*
+*
+*
+*/
+
+/**Returns the absolute value of an int value. If the argument is not negative, the argument
+/* is returned. If the argument is negative, the negation of the argument is returned.
+/*
+/* @return the absolute value of the argument.
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
